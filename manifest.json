@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Base64 Selection Decoder",
+  "version": "1.0.0",
+  "description": "Right-click selected Base64 text and decode it.",
+  "permissions": ["activeTab", "contextMenus", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
